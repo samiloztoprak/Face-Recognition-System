@@ -1,7 +1,8 @@
 # Yüz Tanıma Kullanılarak Yemekhane Otomasyonunun Gerçekleştirilmesi
 
 ## Projenin Amacı
-	Yemekhane turnikesinin önüne takılan kamera yardımı ile alınan kullanıcıların görüntülerinden görüntü işleme tekniği ile kimlik tespiti yapılıp yemekhane otomasyonunun yapılması amaçlanmaktadır.
+Yemekhane turnikesinin önüne takılan kamera yardımı ile alınan kullanıcıların görüntülerinden görüntü işleme tekniği ile kimlik tespiti yapılıp yemekhane otomasyonunun yapılması amaçlanmaktadır.
+
 ## Giriş
 Günlük hayatta yapılan her türlü işlemlerde zaman, hız ve güvenilirlik önem taşır[1]. Örneğin bir yemekhane kapısında, kişilerin her giriş ve çıkışlarında kart okutmaları ya da benzeri yöntemler kullanmaları kaçınılmaz olmaktadır. Fakat kullanılan bu yöntemlerin güvenli olması gerekmektedir. Bunun içinde her geçen gün farklı metotlar ortaya konulmaktadır. Kameradan kimlik tespiti de bu yöntemlerden biridir. Bu kapsamda birçok yüz tanıma teknikleri ve algoritmaları araştırılmıştır. Proje çalışmasında yüz tanıma sistemine iki boyutlu yaklaşılmış ve bu konuda çözüm üretilmeye çalışılmıştır. Öncelikle yüz algılama kısmı tasarlanmıştır. Bu yöntem kullanılırken C# dilinde EmguCv[2] ve OpenCv[3] Kütüphaneleri kullanılmıştır. İkinci olarak ise yüz tanıma kısmı tasarlanmıştır ve yemekhane otomasyonu gerçekleştirilmiştir.	
 	
