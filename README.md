@@ -1,9 +1,9 @@
 # Yüz Tanıma Kullanılarak Yemekhane Otomasyonunun Gerçekleştirilmesi
 
 ## Projenin Amacı
-	Yemekhane turnikesinin önüne takılan kamera yardımı ile alınan kullanıcıların görüntülerinden görüntü işleme tekniği ile kimlik tespiti yapılıp yemekhane otomasyonunun yapılması amaçlanmaktadır.
+Yemekhane turnikesinin önüne takılan kamera yardımı ile alınan kullanıcıların görüntülerinden görüntü işleme tekniği ile kimlik tespiti yapılıp yemekhane otomasyonunun yapılması amaçlanmaktadır.
 ## Giriş
-	Günlük hayatta yapılan her türlü işlemlerde zaman, hız ve güvenilirlik önem taşır[1]. Örneğin bir yemekhane kapısında, kişilerin her giriş ve çıkışlarında kart okutmaları ya da benzeri yöntemler kullanmaları kaçınılmaz olmaktadır. Fakat kullanılan bu yöntemlerin güvenli olması gerekmektedir. Bunun içinde her geçen gün farklı metotlar ortaya konulmaktadır. Kameradan kimlik tespiti de bu yöntemlerden biridir. Bu kapsamda birçok yüz tanıma teknikleri ve algoritmaları araştırılmıştır. Proje çalışmasında yüz tanıma sistemine iki boyutlu yaklaşılmış ve bu konuda çözüm üretilmeye çalışılmıştır. Öncelikle yüz algılama kısmı tasarlanmıştır. Bu yöntem kullanılırken C# dilinde EmguCv[2] ve OpenCv[3] Kütüphaneleri kullanılmıştır. İkinci olarak ise yüz tanıma kısmı tasarlanmıştır ve yemekhane otomasyonu gerçekleştirilmiştir.	
+Günlük hayatta yapılan her türlü işlemlerde zaman, hız ve güvenilirlik önem taşır[1]. Örneğin bir yemekhane kapısında, kişilerin her giriş ve çıkışlarında kart okutmaları ya da benzeri yöntemler kullanmaları kaçınılmaz olmaktadır. Fakat kullanılan bu yöntemlerin güvenli olması gerekmektedir. Bunun içinde her geçen gün farklı metotlar ortaya konulmaktadır. Kameradan kimlik tespiti de bu yöntemlerden biridir. Bu kapsamda birçok yüz tanıma teknikleri ve algoritmaları araştırılmıştır. Proje çalışmasında yüz tanıma sistemine iki boyutlu yaklaşılmış ve bu konuda çözüm üretilmeye çalışılmıştır. Öncelikle yüz algılama kısmı tasarlanmıştır. Bu yöntem kullanılırken C# dilinde EmguCv[2] ve OpenCv[3] Kütüphaneleri kullanılmıştır. İkinci olarak ise yüz tanıma kısmı tasarlanmıştır ve yemekhane otomasyonu gerçekleştirilmiştir.	
 	
 ## Yöntem
 	
@@ -23,12 +23,12 @@
 	
 
 ## 2-Gerçekleşme:
-	Yukarda belirtilen algoritmalar OpenCv ve EmguCv Kütüphanesi kullanılarak gerçekleştirilmiştir.
+Yukarda belirtilen algoritmalar OpenCv ve EmguCv Kütüphanesi kullanılarak gerçekleştirilmiştir.
 Çalışmamızda  yüz ifadelerinden kimlik tespiti için Temel Bileşen Analizi Tabanlı Eigenface Algoritması[10] kullanılmıştır. Bu metot ten rengi gibi faktörlerden en az etkilenen metottur ve de bu metotta gözlük gibi yüz üstüne giyilen materyaller (Göz, burun veya ağızı kapatmadığı sürece) kişiyi tanımaya engel olmamaktadır. Lakin ışık etmeni yüzü tanımada engel çıkartabilmektedir. Şekil-3’te kişiye ait yüz ifadeleri ve Eigenface yöntemi ile eğitilmiş yüz örnekleri bulunmaktadır.
 
 
 ## Sonuç ve Tartışmalar
-	Çalışmamız 3 erkek 3 kız toplam 6 kişi üzerinde denenmiştir. Yapılan testlerde kişinin gözlük takıp takmamasının sistemin başarısını etkilemediği görülmüştür. Farklı ışık ortamlarında olumsuz etkileri olduğu tespit edilmiştir. Bunu engellemek için kişiler kayıt edilirken farklı ışık ortamları kullanılabilir. Şekil 4’te yazılımın ait örnek ekran görüntüsü bulunmaktadır.
+Çalışmamız 3 erkek 3 kız toplam 6 kişi üzerinde denenmiştir. Yapılan testlerde kişinin gözlük takıp takmamasının sistemin başarısını etkilemediği görülmüştür. Farklı ışık ortamlarında olumsuz etkileri olduğu tespit edilmiştir. Bunu engellemek için kişiler kayıt edilirken farklı ışık ortamları kullanılabilir. Şekil 4’te yazılımın ait örnek ekran görüntüsü bulunmaktadır.
 
 Genel olarak yazılımın başarıya ulaştığı görülmüş ve sistemin otomasyonu gerçekleştirilmiştir. İleriki çalışmalarda görüntülerin tanınması için daha farklı algoritmalar üzerinde çalışılabilir.
 
