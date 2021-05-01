@@ -22,9 +22,16 @@
 -	Turnike sisteminden geçişe izin verilmesi
 	
 
-## 2-Gerçekleşme:
+## Gerçekleşme:
 	Yukarda belirtilen algoritmalar OpenCv ve EmguCv Kütüphanesi kullanılarak gerçekleştirilmiştir.
 Çalışmamızda  yüz ifadelerinden kimlik tespiti için Temel Bileşen Analizi Tabanlı Eigenface Algoritması[10] kullanılmıştır. Bu metot ten rengi gibi faktörlerden en az etkilenen metottur ve de bu metotta gözlük gibi yüz üstüne giyilen materyaller (Göz, burun veya ağızı kapatmadığı sürece) kişiyi tanımaya engel olmamaktadır. Lakin ışık etmeni yüzü tanımada engel çıkartabilmektedir. Şekil-3’te kişiye ait yüz ifadeleri ve Eigenface yöntemi ile eğitilmiş yüz örnekleri bulunmaktadır.
+
+<img src="https://github.com/samiloztoprak/Barrier-Free-Shopping/blob/master/Proje%20Resimleri/Prototype.jpg?raw=true" alt="drawing" width="200"/>
+<img src="https://github.com/samiloztoprak/Barrier-Free-Shopping/blob/master/Proje%20Resimleri/Prototype.jpg?raw=true" alt="drawing" width="200"/>
+<img src="https://github.com/samiloztoprak/Barrier-Free-Shopping/blob/master/Proje%20Resimleri/Prototype.jpg?raw=true" alt="drawing" width="200"/>
+<img src="https://github.com/samiloztoprak/Barrier-Free-Shopping/blob/master/Proje%20Resimleri/Prototype.jpg?raw=true" alt="drawing" width="200"/>
+<img src="https://github.com/samiloztoprak/Barrier-Free-Shopping/blob/master/Proje%20Resimleri/Prototype.jpg?raw=true" alt="drawing" width="200"/>
+
 
 
 ## Sonuç ve Tartışmalar
